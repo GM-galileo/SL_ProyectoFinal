@@ -1,0 +1,14 @@
+DTC_Criterio=entropy_Depth=10_Variables=['Age' 'SibSp' 'Parch' 'Fare' 'Embarked_FE' 'passenger_class_FE' 'passenger_sex_FE']_P=0.98_C=0.82_F1=0.89_A=0.93
+DTC_Criterio=gini_Depth=10_Variables=['Age' 'SibSp' 'Parch' 'Fare' 'Embarked_FE' 'passenger_class_FE' 'passenger_sex_FE']_P=0.99_C=0.86_F1=0.92_A=0.95
+DTC_Criterio=gini_Depth=20_Variables=['Age' 'SibSp' 'Parch' 'Fare' 'Embarked_FE' 'passenger_class_FE' 'passenger_sex_FE']_P=1.00_C=0.97_F1=0.99_A=0.99
+DTC_Criterio=entropy_Depth=20_Variables=['Age' 'SibSp' 'Parch' 'Fare' 'Embarked_FE' 'passenger_class_FE' 'passenger_sex_FE']_P=1.00_C=0.96_F1=0.98_A=0.98
+SVM__Kernel=sigmoid_Gamma= _Variables=['Age' 'SibSp' 'Parch' 'Fare' 'Embarked_FE' 'passenger_class_FE' 'passenger_sex_FE']_P=0.55_C=0.51_F1=0.53_A=0.66
+SVM__Kernel=linear_Gamma= _Variables=['Age' 'SibSp' 'Parch' 'Fare' 'Embarked_FE' 'passenger_class_FE' 'passenger_sex_FE']_P=0.71_C=0.67_F1=0.69_A=0.77
+SVM__Kernel=rbf_Gamma= _Variables=['Age' 'SibSp' 'Parch' 'Fare' 'Embarked_FE' 'passenger_class_FE' 'passenger_sex_FE']_P=0.93_C=0.64_F1=0.76_A=0.85
+NaiveBayes_Variables=['Age' 'SibSp' 'Parch' 'Fare' 'Embarked_FE' 'passenger_class_FE' 'passenger_sex_FE']_P=0.69_C=0.71_F1=0.70_A=0.77
+RL_lr=0.0001batch=10epoch=1
+RL_lr=0.0001batch=100epoch=2
+RL_lr=0.0001batch=300epoch=5
+RL_Regularizacion=0.01_Solver=liblinear_Variables=['Age' 'SibSp' 'Parch' 'Fare' 'Embarked_FE' 'passenger_class_FE' 'passenger_sex_FE']_P=0.74_C=0.66_F1=0.70_A=0.79
+RL_Regularizacion=0.5_Solver=saga_Variables=['Age' 'SibSp' 'Parch' 'Fare' 'Embarked_FE' 'passenger_class_FE' 'passenger_sex_FE']_P=0.75_C=0.66_F1=0.70_A=0.79
+RL_Regularizacion=0.5_Solver=liblinear_Variables=['Age' 'SibSp' 'Parch' 'Fare' 'Embarked_FE' 'passenger_class_FE' 'passenger_sex_FE']_P=0.75_C=0.67_F1=0.71_A=0.79
